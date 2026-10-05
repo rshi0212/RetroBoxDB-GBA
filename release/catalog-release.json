@@ -1,10 +1,10 @@
 {
-  "tag": "gba-catalog-20261005-3",
-  "title": "Game Boy Advance Catalog: RetroAchievements ROM set and source collections",
+  "tag": "gba-catalog-20261006",
+  "title": "Game Boy Advance Catalog: eight-platform engine and documentation",
   "platform": "gba",
   "catalog_name": "RetroBoxDB.GBA.Catalog.sqlite",
-  "base_url": "https://github.com/rshi0212/RetroBoxDB-GBA/releases/download/gba-catalog-base-20261005-3/RetroBoxDB.GBA.Catalog.sqlite",
-  "base_sha256": "920ef91eface08a461914b34c1b62074b77eec5457f8ecea179976fcf78b5ba6",
+  "base_url": "https://github.com/rshi0212/RetroBoxDB-GBA/releases/download/gba-catalog-base-20261006/RetroBoxDB.GBA.Catalog.sqlite",
+  "base_sha256": "b6127479c6df4d34ab7e91d54b5ac8586b1b56697076fb3e52b534a93498bcf0",
   "data_table_sha256": {
     "archive_entries": {
       "rows": 4396,
@@ -17,6 +17,10 @@
     "archive_profiles": {
       "rows": 1,
       "sha256": "a8247ca6bd7302d45bbf2e6dfe2fae5b8624f1333cc6a4087cd18bac6e463690"
+    },
+    "bsx_hardware": {
+      "rows": 0,
+      "sha256": "44f335cb2b7c8f195e63c47f303f37dadc7e880771c4b23baef96323d6cb90d3"
     },
     "chunks": {
       "rows": 0,
@@ -43,8 +47,8 @@
       "sha256": "bd55ddd4ba1ebfb536e817a832236f83859c203c32819cd1d4f9f4c59fca9674"
     },
     "events": {
-      "rows": 27,
-      "sha256": "4d79630461a6db7e9ed569f8650b4c2a1a09ee40f254806d708daf1d93553840"
+      "rows": 29,
+      "sha256": "7a1db0e0db9bd66371c63e9d0e2b3de27eb8f5a44d4b60aeceebd2e8136d53a7"
     },
     "fds_hardware": {
       "rows": 0,
@@ -383,6 +387,10 @@
     "storage-experiment-fds": {
       "kind": "json",
       "path": "assessment/data/storage-experiment-fds.json"
+    },
+    "storage-experiment-satellaview": {
+      "kind": "json",
+      "path": "assessment/data/storage-experiment-satellaview.json"
     },
     "storage-curves": {
       "kind": "json",
