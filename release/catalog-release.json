@@ -1,18 +1,18 @@
 {
-  "tag": "gba-catalog-20261005",
-  "title": "Game Boy Advance Catalog: storage v4, No-Intro DATs, RetroAchievements and Chinese names",
+  "tag": "gba-catalog-20261005-2",
+  "title": "Game Boy Advance Catalog: RetroAchievements ROM set and source collections",
   "platform": "gba",
   "catalog_name": "RetroBoxDB.GBA.Catalog.sqlite",
-  "base_url": "https://github.com/rshi0212/RetroBoxDB-GBA/releases/download/gba-catalog-base-20261005/RetroBoxDB.GBA.Catalog.sqlite",
-  "base_sha256": "1d564ee0aee08da808c8a842b6e4780ce5f35072885702e589eebc5aadc6879f",
+  "base_url": "https://github.com/rshi0212/RetroBoxDB-GBA/releases/download/gba-catalog-base-20261005-2/RetroBoxDB.GBA.Catalog.sqlite",
+  "base_sha256": "464ecab789290f6720284fbb8a82a1b923431579ac4f0d1cff8c3ddf4f661f26",
   "data_table_sha256": {
     "archive_entries": {
-      "rows": 3940,
-      "sha256": "8d8ea4fd1654f10ac2fe6f0bc09b99133e054a74bdfcde28854eb2d3421240be"
+      "rows": 4396,
+      "sha256": "cf058de110080883e2f375990884af4acce00504e8b5afa36626027965790953"
     },
     "archive_plans": {
-      "rows": 3940,
-      "sha256": "775e0c34b6097d3a2dc24b1be57d460cf522466bae267b45efb56cd7acd5f7c7"
+      "rows": 4396,
+      "sha256": "9062f3d8f25f98818280af54e3fa6c67270dca62ebda8e3dd07114f2d28a4a3d"
     },
     "archive_profiles": {
       "rows": 1,
@@ -43,16 +43,20 @@
       "sha256": "bd55ddd4ba1ebfb536e817a832236f83859c203c32819cd1d4f9f4c59fca9674"
     },
     "events": {
-      "rows": 20,
-      "sha256": "9e8bd3dc02808c6c8f2084f95793f43b2fe2c1e8587d09eff7ed12206611a53a"
+      "rows": 25,
+      "sha256": "89961a9fdd30d15b9e573e6d2f3727fbd65b479ada0452d954367c2de371d6d8"
+    },
+    "fds_hardware": {
+      "rows": 0,
+      "sha256": "375c736a39de19330edc6ac46a26acccfda18a13e70ba87f22f6d39da91d9c42"
     },
     "file_archives": {
-      "rows": 7632,
-      "sha256": "ede4517a49946e9eeb1cbd5e232b60928e610df3897ece5d7529d26eb654b016"
+      "rows": 8838,
+      "sha256": "bb9934b687b5db942283cdd592cbda90e838b2e520cddba1a73e9e28e7cf9297"
     },
     "files": {
-      "rows": 11584,
-      "sha256": "1233a8e0a8b77f6a5241babe9b6f35313d5de25958ff87d76388096684e05f3a"
+      "rows": 13996,
+      "sha256": "f0fe0855acef607963418aa242a5a5abd46cf789cabb4fe6cdca78bc3547b945"
     },
     "frontend_fields": {
       "rows": 40,
@@ -99,8 +103,8 @@
       "sha256": "6c43f561fac1c3edf4d629e477485caa8fc0ec9a3e20aa7e90844e62d9234d62"
     },
     "gba_hardware": {
-      "rows": 3734,
-      "sha256": "50055c2bb16351e134887d1d0a35e9ddf336cf9a994c5bcd4e39e75457ffa2e2"
+      "rows": 4143,
+      "sha256": "393e3164fdd2b8c647ce12919b54b1ad64be6a82755fccc8cf6b85abfb5a3815"
     },
     "hardware_assertions": {
       "rows": 3188,
@@ -116,7 +120,7 @@
     },
     "meta": {
       "rows": 23,
-      "sha256": "fdc3fad22103982fbda7612875eff8b8eacce6169d8ec54f5cf4b004107baa3e"
+      "sha256": "03ce8948cfcc271a24b4c1cffef0a0e0bc0d382b8b953e48b67af4eb9dae1caa"
     },
     "naming_decisions": {
       "rows": 776,
@@ -187,12 +191,12 @@
       "sha256": "fd5a7a33f506e106df266f6402be4ab11593068d2660fc8a3013ceb920dcf5f9"
     },
     "object_families": {
-      "rows": 3734,
-      "sha256": "eeb66b0f517829feb3cf33736f2bdd51ed0bb14706529ab7c0805a43cdbf0a87"
+      "rows": 4143,
+      "sha256": "7ec7c755e425f4ee6fe20a677db6f1073768090e55abc4fa961fd4665edfed0b"
     },
     "objects": {
-      "rows": 7680,
-      "sha256": "60dd5fbb920aec09655578f4ceb081ea23d548256b7a39ea9e10bbc8f33fca48"
+      "rows": 8545,
+      "sha256": "7c0a2ad6e5da52af14e21a8d43d1afe12361c3f7c78f8e5b82fbd28bbe5774bc"
     },
     "package_members": {
       "rows": 14704,
@@ -207,16 +211,16 @@
       "sha256": "67292ccd32d14221f485fdda681f3bb1021ec15a94ae21a9c56ddaf8c80b4cbd"
     },
     "ra_games": {
-      "rows": 2172,
-      "sha256": "d7f9cdd1ac97d5f75b861265bbd3937d5f13a7466bdd6019296ba3ae41a6c160"
+      "rows": 4344,
+      "sha256": "e18fe862a6cabb9c6ecbf395de589f227ad25eb30d24068574e5e9b07668f779"
     },
     "ra_hashes": {
-      "rows": 3769,
-      "sha256": "9aa0266f87d931e0b62b8bcf55297d5fffe25913d846209aef75a7b54045a363"
+      "rows": 7538,
+      "sha256": "f7c6a8002db81b1d9983054a38004839fd5e96058d4ad696056c0a3a18b677fe"
     },
     "ra_snapshots": {
-      "rows": 1,
-      "sha256": "c9a7ebb8ef3557e31ce9bbcc9ee002ed2176ee6ac8ff199b57945d573fcfb344"
+      "rows": 2,
+      "sha256": "38f77f4b6bf1dd7895aa9cbb745cf8d9d44595023d27b39eb079c51f8a536418"
     },
     "release_dat_games": {
       "rows": 14992,
@@ -235,20 +239,20 @@
       "sha256": "3c642e0d29d1e5dab60d2328c3d565be7c0acc7c70e44cb33566db7e538d7ffa"
     },
     "rom_components": {
-      "rows": 10801,
-      "sha256": "6ad37cb898d0924c15172b77162ba683158d2e0e096905e0dd6319bce047d472"
+      "rows": 11961,
+      "sha256": "2f6f72a7642c860ce4e0d3d7ecff8095c7c30f7e58bd670ca9d24e827f903dee"
     },
     "rom_ra_hashes": {
-      "rows": 3734,
-      "sha256": "04cf90604d56b92a51a088fee3f7dd1ca5ec4328419bc2974e6f79c91f204ab5"
+      "rows": 4143,
+      "sha256": "3d0c6bc9741a671a00ca636a9295d3a1762d8ff4008ddc9b418d928a96d7b7c5"
     },
     "rom_releases": {
       "rows": 3678,
       "sha256": "631038a9188ff5cd364bc3bae0e9d6ce57fb57bd7c0b0b540d1ae676d9e7aa0c"
     },
     "roms": {
-      "rows": 3734,
-      "sha256": "ed186f775ce47c217dd522a068a76273f66f7dfb2b1618c93a9d478f5d889853"
+      "rows": 4143,
+      "sha256": "a51b14218d37170f600cf95922af5818e8d1f5843e3c3c0125b646872e3f2b0b"
     },
     "scrape_records": {
       "rows": 0,
@@ -267,8 +271,12 @@
       "sha256": "affa7bfc7d2085320a163fb9ea1ce7500c1ac222aab17389817a91d784922466"
     },
     "solid_group_families": {
-      "rows": 1931,
-      "sha256": "1e13480d606e115798ce79bf2eea3a8c258548a327a0a3fd9f32f8d8f15273cc"
+      "rows": 2113,
+      "sha256": "9575e3e6a265276b18c069964fc8a9ee4d79fed7719bb26b5c8423784b48b883"
+    },
+    "source_collections": {
+      "rows": 4,
+      "sha256": "031b0b94ad6270bdc55dfe0ac600e9196024a19b46e29bc5f449bff759e4bc69"
     },
     "sources": {
       "rows": 7961,
@@ -372,6 +380,10 @@
       "kind": "json",
       "path": "assessment/data/storage-experiment-gb-gbc-gba.json"
     },
+    "storage-experiment-fds": {
+      "kind": "json",
+      "path": "assessment/data/storage-experiment-fds.json"
+    },
     "storage-curves": {
       "kind": "json",
       "path": "assessment/data/storage-curves.json"
@@ -387,6 +399,10 @@
     "ra-report-games.csv": {
       "kind": "csv",
       "path": "reports/ra-gba-games.csv"
+    },
+    "ra-report-missing.csv": {
+      "kind": "csv",
+      "path": "reports/ra-gba-missing.csv"
     }
   },
   "repo_tests": [
