@@ -5,6 +5,7 @@
   "ra_games_with_achievements": 775,
   "status_totals": {
     "local": 750,
+    "local_other_platform": 0,
     "dat_only": 1,
     "nointro_db_only": 1,
     "unmatched": 23
@@ -40,6 +41,8 @@
       "local": 1
     }
   },
+  "sibling_databases": [],
+  "shared_console_scope": false,
   "local_roms_with_achievements": 1230,
   "rule": "RA hash = MD5 of the complete file; exact hash equality only",
   "local_games_by_source": {

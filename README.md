@@ -17,7 +17,7 @@ Single-file SQLite preservation database for Nintendo Game Boy Advance. The publ
 | File / document | Content |
 | --- | --- |
 | [RetroBoxDB.GBA.Catalog.sqlite](https://github.com/rshi0212/RetroBoxDB-GBA/releases/latest/download/RetroBoxDB.GBA.Catalog.sqlite) | Public Catalog (Release asset with `SHA256SUMS`) |
-| [Storage v4 guide](RetroBoxDB.Storage-v4.en.md) / [中文](RetroBoxDB.Storage-v4.zh-CN.md) | Storage evaluation, contents, RA, names and maintenance for all seven platforms |
+| [Storage v4 guide](RetroBoxDB.Storage-v4.en.md) / [中文](RetroBoxDB.Storage-v4.zh-CN.md) | Storage evaluation, contents, RA, names and maintenance for all eight platforms |
 | [Technical design](RetroBoxDB.Storage-v4.Technical-Design.en.md) | Storage format, platform adapters, incremental updates, verification |
 | [RA list](reports/ra-gba-games.csv) / [summary](reports/ra-gba.json), [build report](reports/gba-build-report.json), [audit resolution](reports/audit-resolution-20261004.md) | Detailed data |
 
@@ -38,7 +38,7 @@ Change against 128 MiB groups on real data (first 8 family-ordered groups, 956 M
 | Local ROMs in no DAT | 467 |
 | ROM files of the RetroAchievements set | in a No-Intro DAT 775, RA only 426, hash not in the latest RA snapshot 5 ([list](reports/ra-gba-collection-unknown.csv)); RA games still without a local ROM: [gap list](reports/ra-gba-missing.csv) |
 | No-Intro DB Export + Dump Log 20260929-130236 | 3,793 archives, 4,563 file identities, 3,188 documented hardware assertions; Dump Log Verified 770 |
-| RetroAchievements (console 5) | 775 games with achievements: 750 with a local ROM (1,230 ROMs), 1 DAT only, 1 DB file only, 23 without a No-Intro counterpart |
+| RetroAchievements (console 5) | 775 games with achievements: 750 with a local ROM (1,230 ROMs), 0 with the ROM in a sibling database, 1 DAT only, 1 DB file only, 23 without a No-Intro counterpart |
 | Chinese names | 3,410 of 3,522 rows translated (1,882 unique); 3,350 local ROMs have a Chinese name |
 | Populated-database audit | 4,149 objects, 123 groups, 4,396 archive plans, all passed |
 

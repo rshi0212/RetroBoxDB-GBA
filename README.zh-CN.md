@@ -17,7 +17,7 @@
 | 文件／文档 | 内容 |
 | --- | --- |
 | [RetroBoxDB.GBA.Catalog.sqlite](https://github.com/rshi0212/RetroBoxDB-GBA/releases/latest/download/RetroBoxDB.GBA.Catalog.sqlite) | 公开 Catalog（Release 附件，附 `SHA256SUMS`） |
-| [存储 v4 说明](RetroBoxDB.Storage-v4.zh-CN.md)／[English](RetroBoxDB.Storage-v4.en.md) | 七个平台的存储评估、内容、RA、中文名与维护 |
+| [存储 v4 说明](RetroBoxDB.Storage-v4.zh-CN.md)／[English](RetroBoxDB.Storage-v4.en.md) | 八个平台的存储评估、内容、RA、中文名与维护 |
 | [Technical design](RetroBoxDB.Storage-v4.Technical-Design.en.md) | 存储格式、平台适配、增量更新、校验 |
 | [RA 清单](reports/ra-gba-games.csv)／[汇总](reports/ra-gba.json)、[构建报告](reports/gba-build-report.json)、[审计处理](reports/audit-resolution-20261004.md) | 逐项数据 |
 
@@ -38,7 +38,7 @@
 | 不在任何 DAT 的本地 ROM | 467 |
 | RetroAchievements 集合中的 ROM 文件 | DAT 中有 775，仅 RA 收录 426，哈希不在最新 RA 快照 5（[清单](reports/ra-gba-collection-unknown.csv)）；仍缺本地 ROM 的 RA 游戏见 [缺口清单](reports/ra-gba-missing.csv) |
 | No-Intro DB Export＋Dump Log 20260929-130236 | 3,793 个档案、4,563 个文件身份、3,188 条有文档的硬件声明；Dump Log Verified 770 |
-| RetroAchievements（console 5） | 有成就的游戏 775 个：本地有 ROM 750（1,230 个 ROM），仅 DAT 有 1，仅 DB 文件 1，无 No-Intro 对应 23 |
+| RetroAchievements（console 5） | 有成就的游戏 775 个：本地有 ROM 750（1,230 个 ROM），ROM 在兄弟库中 0，仅 DAT 有 1，仅 DB 文件 1，无 No-Intro 对应 23 |
 | 中文名 | 3,522 条记录中 3,410 条有中文（1,882 个唯一名）；本地 ROM 3,350 个有中文名 |
 | 完整库审计 | 4,149 个对象、123 个组、4,396 个 ZIP 配方，全部通过 |
 
