@@ -1,10 +1,10 @@
 {
-  "tag": "gba-catalog-20261005-2",
+  "tag": "gba-catalog-20261005-3",
   "title": "Game Boy Advance Catalog: RetroAchievements ROM set and source collections",
   "platform": "gba",
   "catalog_name": "RetroBoxDB.GBA.Catalog.sqlite",
-  "base_url": "https://github.com/rshi0212/RetroBoxDB-GBA/releases/download/gba-catalog-base-20261005-2/RetroBoxDB.GBA.Catalog.sqlite",
-  "base_sha256": "464ecab789290f6720284fbb8a82a1b923431579ac4f0d1cff8c3ddf4f661f26",
+  "base_url": "https://github.com/rshi0212/RetroBoxDB-GBA/releases/download/gba-catalog-base-20261005-3/RetroBoxDB.GBA.Catalog.sqlite",
+  "base_sha256": "920ef91eface08a461914b34c1b62074b77eec5457f8ecea179976fcf78b5ba6",
   "data_table_sha256": {
     "archive_entries": {
       "rows": 4396,
@@ -43,8 +43,8 @@
       "sha256": "bd55ddd4ba1ebfb536e817a832236f83859c203c32819cd1d4f9f4c59fca9674"
     },
     "events": {
-      "rows": 25,
-      "sha256": "89961a9fdd30d15b9e573e6d2f3727fbd65b479ada0452d954367c2de371d6d8"
+      "rows": 27,
+      "sha256": "4d79630461a6db7e9ed569f8650b4c2a1a09ee40f254806d708daf1d93553840"
     },
     "fds_hardware": {
       "rows": 0,
