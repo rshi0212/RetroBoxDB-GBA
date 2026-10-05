@@ -10,7 +10,7 @@ Single-file SQLite preservation database for Nintendo Game Boy Advance. The publ
 | Stored size | populated database 7.01 GiB; public Catalog 57.8 MiB (no ROM data) |
 | Ratio | 33.1% of the source ZIPs, 15.9% of the uncompressed ROM files |
 | Technology | storage v4: SHA256-deduplicated 1 MiB blocks packed in No-Intro family order into solid LZMA2 groups of up to 256 MiB (256 MiB dictionary); per-block SHA256 and per-object CRC32/MD5/SHA1/SHA256 verification; source ZIPs reproduced byte-for-byte from TorrentZip plans |
-| Export performance | Intel(R) Core(TM) i7-8650U CPU @ 1.90GHz, idle, Python 3.14.4, all checks included. Whole-set export (5,152 ROM files in storage order, each group decoded once): 22.3 MiB/s, 395 ms per file on average; single file with a cold cache (the group is decoded up to the file): ROM 2.413 s, TorrentZip 2.682 s on average |
+| Export performance | Intel(R) Core(TM) i7-8650U CPU @ 1.90GHz, idle, Python 3.14.4, all checks included. whole newest-DAT set with `export_set.py` (3,676 files, each checked against the DAT hashes): 25.1 MiB/s, 323 ms per file on average; single file with a cold cache (the group is decoded up to the file): ROM 2.413 s, TorrentZip 2.682 s on average |
 
 ## Downloads and documents
 
