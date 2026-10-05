@@ -1,46 +1,63 @@
 {
-  "snapshot_id": 1,
+  "snapshot_id": 2,
   "console_id": 5,
-  "fetched_at": "2026-10-04T14:39:19.632017+00:00",
-  "ra_games_with_achievements": 774,
+  "fetched_at": "2026-10-05T08:32:16.533308+00:00",
+  "ra_games_with_achievements": 775,
   "status_totals": {
-    "local": 581,
-    "dat_only": 2,
-    "nointro_db_only": 3,
-    "unmatched": 188
+    "local": 750,
+    "dat_only": 1,
+    "nointro_db_only": 1,
+    "unmatched": 23
   },
   "by_category": {
     "Official": {
-      "local": 549,
-      "unmatched": 47,
-      "nointro_db_only": 3
+      "local": 592,
+      "unmatched": 7,
+      "nointro_db_only": 1
     },
     "Hack": {
-      "unmatched": 107
+      "local": 95,
+      "unmatched": 12
     },
     "Homebrew": {
-      "local": 23,
-      "unmatched": 28,
-      "dat_only": 2
+      "local": 48,
+      "unmatched": 4,
+      "dat_only": 1
     },
     "Hack/Demo": {
-      "unmatched": 1
+      "local": 1
     },
     "Homebrew/Demo": {
-      "local": 1,
-      "unmatched": 2
+      "local": 3
     },
     "Prototype": {
-      "local": 5,
-      "unmatched": 2
+      "local": 7
     },
     "Unlicensed": {
       "local": 3
     },
     "Demo": {
-      "unmatched": 1
+      "local": 1
     }
   },
-  "local_roms_with_achievements": 823,
-  "rule": "RA hash = MD5 of the complete file; exact hash equality only"
+  "local_roms_with_achievements": 1230,
+  "rule": "RA hash = MD5 of the complete file; exact hash equality only",
+  "local_games_by_source": {
+    "nointro": 35,
+    "nointro,retroachievements": 547,
+    "retroachievements": 168
+  },
+  "retroachievements_collections": {
+    "RA - Nintendo Game Boy Advance": {
+      "in_nointro_dat": 775,
+      "ra_hash_unknown": 5,
+      "ra_only": 426
+    }
+  },
+  "collection_files_with_unknown_ra_hash": 5,
+  "missing_by_category": {
+    "Official": 8,
+    "Hack": 12,
+    "Homebrew": 5
+  }
 }

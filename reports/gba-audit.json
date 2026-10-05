@@ -3,11 +3,11 @@
   "ok"
  ],
  "foreign_key_errors": [],
- "objects_checked": 3740,
- "archive_plans_checked": 3940,
- "compression_groups_checked": 104,
- "historical_zip_objects": 3940,
+ "objects_checked": 4149,
+ "archive_plans_checked": 4396,
+ "compression_groups_checked": 123,
+ "historical_zip_objects": 4396,
  "errors": [],
  "ok": true,
- "seconds": 1991
+ "seconds": 2699
 }

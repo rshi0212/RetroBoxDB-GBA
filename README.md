@@ -6,18 +6,18 @@ Single-file SQLite preservation database for Nintendo Game Boy Advance. The publ
 
 | Item | Value |
 | --- | --- |
-| Original size | 3,946 No-Intro ZIPs, 14.42 GiB; 3,946 ROM files, 30.92 GiB uncompressed |
-| Stored size | populated database 5.51 GiB; public Catalog 54.7 MiB (no ROM data) |
-| Ratio | 38.2% of the source ZIPs, 17.8% of the uncompressed ROM files |
+| Original size | 5,152 source ZIPs, 21.20 GiB (No-Intro 3,946, RetroAchievements sets 1,206); 5,152 ROM files, 44.24 GiB uncompressed |
+| Stored size | populated database 7.01 GiB; public Catalog 57.8 MiB (no ROM data) |
+| Ratio | 33.1% of the source ZIPs, 15.9% of the uncompressed ROM files |
 | Technology | storage v4: SHA256-deduplicated 1 MiB blocks packed in No-Intro family order into solid LZMA2 groups of up to 256 MiB (256 MiB dictionary); per-block SHA256 and per-object CRC32/MD5/SHA1/SHA256 verification; source ZIPs reproduced byte-for-byte from TorrentZip plans |
-| Export performance | Intel(R) Core(TM) i7-8650U CPU @ 1.90GHz, idle, Python 3.14.4, all checks included. Whole-set export (3,946 ROM files in storage order, each group decoded once): 22.2 MiB/s, 362 ms per file on average; single file with a cold cache (the group is decoded up to the file): ROM 2.374 s, TorrentZip 2.751 s on average |
+| Export performance | Intel(R) Core(TM) i7-8650U CPU @ 1.90GHz, idle, Python 3.14.4, all checks included. Whole-set export (5,152 ROM files in storage order, each group decoded once): 22.3 MiB/s, 395 ms per file on average; single file with a cold cache (the group is decoded up to the file): ROM 2.413 s, TorrentZip 2.682 s on average |
 
 ## Downloads and documents
 
 | File / document | Content |
 | --- | --- |
 | [RetroBoxDB.GBA.Catalog.sqlite](https://github.com/rshi0212/RetroBoxDB-GBA/releases/latest/download/RetroBoxDB.GBA.Catalog.sqlite) | Public Catalog (Release asset with `SHA256SUMS`) |
-| [Storage v4 guide](RetroBoxDB.Storage-v4.en.md) / [中文](RetroBoxDB.Storage-v4.zh-CN.md) | Storage evaluation, contents, RA, names and maintenance for all six platforms |
+| [Storage v4 guide](RetroBoxDB.Storage-v4.en.md) / [中文](RetroBoxDB.Storage-v4.zh-CN.md) | Storage evaluation, contents, RA, names and maintenance for all seven platforms |
 | [Technical design](RetroBoxDB.Storage-v4.Technical-Design.en.md) | Storage format, platform adapters, incremental updates, verification |
 | [RA list](reports/ra-gba-games.csv) / [summary](reports/ra-gba.json), [build report](reports/gba-build-report.json), [audit resolution](reports/audit-resolution-20261004.md) | Detailed data |
 
@@ -33,13 +33,14 @@ Change against 128 MiB groups on real data (first 8 family-ordered groups, 956 M
 
 | Item | Value |
 | --- | --- |
-| ROM records / games / releases | 3,734 / 1,901 / 3,750 |
+| ROM records / games / releases | 4,143 / 1,901 / 3,750 |
 | DAT coverage per version | 20260531-074517: 3,676/3,745; 20260707-143610: 3,676/3,748; 20260812-060017: 3,676/3,749; 20260929-130236: 3,676/3,750 |
-| Local ROMs in no DAT | 58 |
+| Local ROMs in no DAT | 467 |
+| ROM files of the RetroAchievements set | in a No-Intro DAT 775, RA only 426, hash not in the latest RA snapshot 5 ([list](reports/ra-gba-collection-unknown.csv)); RA games still without a local ROM: [gap list](reports/ra-gba-missing.csv) |
 | No-Intro DB Export + Dump Log 20260929-130236 | 3,793 archives, 4,563 file identities, 3,188 documented hardware assertions; Dump Log Verified 770 |
-| RetroAchievements (console 5) | 774 games with achievements: 581 with a local ROM (823 ROMs), 2 DAT only, 3 DB file only, 188 without a No-Intro counterpart |
+| RetroAchievements (console 5) | 775 games with achievements: 750 with a local ROM (1,230 ROMs), 1 DAT only, 1 DB file only, 23 without a No-Intro counterpart |
 | Chinese names | 3,410 of 3,522 rows translated (1,882 unique); 3,350 local ROMs have a Chinese name |
-| Populated-database audit | 3,740 objects, 104 groups, 3,940 archive plans, all passed |
+| Populated-database audit | 4,149 objects, 123 groups, 4,396 archive plans, all passed |
 
 Every source ZIP is reproduced byte-for-byte from its TorrentZip plan (`v_file_checksums.exported_bytes_equal_source`).
 
