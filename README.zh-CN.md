@@ -7,7 +7,7 @@
 | 项目 | 数值 |
 | --- | --- |
 | 原始大小 | 源 ZIP 5,152 个，21.20 GiB（No-Intro 3,946 个，RetroAchievements 集合 1,206 个）；解压后 ROM 5,152 个，44.24 GiB |
-| 入库后大小 | 完整库 7.01 GiB；公开 Catalog 58.1 MiB（不含 ROM 数据） |
+| 入库后大小 | 完整库 7.01 GiB；公开 Catalog 58.2 MiB（不含 ROM 数据） |
 | 比例 | 完整库为原 ZIP 的 33.1%，为解压后 ROM 总量的 15.9% |
 | 使用的技术 | 存储 v4：1 MiB 块按 SHA256 去重，按 No-Intro 游戏族顺序装入最大 256 MiB 的 LZMA2 实体组（字典 256 MiB）；逐块 SHA256、逐对象 CRC32／MD5／SHA1／SHA256 校验；源 ZIP 由 TorrentZip 配方逐字节重建 |
 | 导出性能 | Intel(R) Core(TM) i7-8650U CPU @ 1.90GHz，空闲负载，Python 3.14.4，含全部校验。按最新 DAT 整套导出（`export_set.py`，3,676 个文件，逐个按 DAT 哈希校验）：25.1 MiB/s，平均 323 毫秒／个；单个文件冷缓存（每次清空缓存，需解压所在组的前段）：ROM 平均 2.413 秒，TorrentZip 平均 2.682 秒 |
