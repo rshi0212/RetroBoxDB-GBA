@@ -7,7 +7,7 @@ Single-file SQLite preservation database for Nintendo Game Boy Advance. The publ
 | Item | Value |
 | --- | --- |
 | Original size | 5,152 source ZIPs, 21.20 GiB (No-Intro 3,946, RetroAchievements sets 1,206); 5,152 ROM files, 44.24 GiB uncompressed |
-| Stored size | populated database 7.01 GiB; public Catalog 57.8 MiB (no ROM data) |
+| Stored size | populated database 7.01 GiB; public Catalog 58.1 MiB (no ROM data) |
 | Ratio | 33.1% of the source ZIPs, 15.9% of the uncompressed ROM files |
 | Technology | storage v4: SHA256-deduplicated 1 MiB blocks packed in No-Intro family order into solid LZMA2 groups of up to 256 MiB (256 MiB dictionary); per-block SHA256 and per-object CRC32/MD5/SHA1/SHA256 verification; source ZIPs reproduced byte-for-byte from TorrentZip plans |
 | Export performance | Intel(R) Core(TM) i7-8650U CPU @ 1.90GHz, idle, Python 3.14.4, all checks included. whole newest-DAT set with `export_set.py` (3,676 files, each checked against the DAT hashes): 25.1 MiB/s, 323 ms per file on average; single file with a cold cache (the group is decoded up to the file): ROM 2.413 s, TorrentZip 2.682 s on average |
@@ -17,7 +17,7 @@ Single-file SQLite preservation database for Nintendo Game Boy Advance. The publ
 | File / document | Content |
 | --- | --- |
 | [RetroBoxDB.GBA.Catalog.sqlite](https://github.com/rshi0212/RetroBoxDB-GBA/releases/latest/download/RetroBoxDB.GBA.Catalog.sqlite) | Public Catalog (Release asset with `SHA256SUMS`) |
-| [Storage v4 guide](RetroBoxDB.Storage-v4.en.md) / [中文](RetroBoxDB.Storage-v4.zh-CN.md) | Storage evaluation, contents, RA, names and maintenance for all eight platforms |
+| [Storage v4 guide](RetroBoxDB.Storage-v4.en.md) / [中文](RetroBoxDB.Storage-v4.zh-CN.md) | Storage evaluation, contents, RA, names and maintenance for every platform |
 | [Technical design](RetroBoxDB.Storage-v4.Technical-Design.en.md) | Storage format, platform adapters, incremental updates, verification |
 | [RA list](reports/ra-gba-games.csv) / [summary](reports/ra-gba.json), [build report](reports/gba-build-report.json), [audit resolution](reports/audit-resolution-20261004.md) | Detailed data |
 

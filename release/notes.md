@@ -1,7 +1,9 @@
 GBA Catalog, storage v4 (1 MiB blocks, 123 solid LZMA2 groups of up to 256 MiB). Metadata only: **no ROM payloads are published**; `compression_groups`, `chunks` and `object_chunks` are empty.
 
-- RetroAchievements reports look up sibling databases (NES<->FDS, SNES<->Satellaview): a game whose ROM is stored there is `local_other_platform`, not a gap.
-- Engine: block sizes may be any power of two from 4 KiB to 1 MiB; a parser may store a header in another table (BS-X base cartridge).
+- `meta.storage` corrected: after retuning it still described the original group size.
+- Naming normalized: platform codes are the Batocera system names, every populated database is `RetroBoxDB.<label>.sqlite`, and `meta.scope` / `meta.storage` are derived from the platform and the current storage parameters.
+- One schema for all fifteen platforms: the header tables of every platform (including Master System, 32X, WonderSwan, NeoGeo Pocket and Pokémon Mini) and the provider-information tables exist in every Catalog; tables of other platforms and provider tables have no rows.
+- RetroAchievements reports look up sibling databases (NES<->FDS, SNES<->Satellaview, WonderSwan<->WonderSwan Color, NeoGeo Pocket<->NeoGeo Pocket Color): a game whose ROM is stored there is `local_other_platform`, not a gap.
 - Source: 5,152 ZIPs (nointro 3,946, retroachievements 1,206), 21.20 GiB (5,152 ROM files, 44.24 GiB uncompressed). Populated database: 7.01 GiB (33.1% of the ZIPs). All source ZIPs are reproduced byte-for-byte.
 - Contents: 4,143 ROM records, 1,901 games, 3,750 releases; DAT versions: 20260531-074517, 20260707-143610, 20260812-060017, 20260929-130236.
 - RetroAchievements: 750 of 775 games with achievements have a local ROM.
